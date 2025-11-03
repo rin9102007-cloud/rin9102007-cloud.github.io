@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Khoa CNTT - Đại học Đại Nam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-placeholder">IT</div>
+                <div class="logo-text">
+                    <h1>Khoa Công Nghệ Thông Tin</h1>
+                    <p>Đại học Đại Nam</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>Hotline: 0123 456 789</p>
+                <p>Email: khoacntt@dainam.edu.vn</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul class="main-menu">
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                <li>
+                    <a href="#">Đào tạo</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Đại học</a></li>
+                        <li><a href="#">Thạc sĩ</a></li>
+                        <li><a href="#">Ngắn hạn</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Sinh viên</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Câu lạc bộ</a></li>
+                        <li><a href="#">Học bổng</a></li>
+                        <li><a href="#">Việc làm</a></li>
+                    </ul>
+                </li>
+                <li><a href="tin-tuc.html">Tin tức</a></li>
+                <li class="active"><a href="lien-he.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="page-title">Liên hệ với chúng tôi</h1>
+        
+        <div class="content-section">
+            <h2>Thông tin liên hệ</h2>
+            <div class="contact-info-grid">
+                <div class="contact-item">
+                    <h3>Địa chỉ</h3>
+                    <p>Số 56, đường Vũ Trọng Phụng, Quận Thanh Xuân, Hà Nội</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Điện thoại</h3>
+                    <p>024 3555 9999</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>khoacntt@dainam.edu.vn</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Giờ làm việc</h3>
+                    <p>Thứ 2 - Thứ 6: 7:30 - 17:00<br>Thứ 7: 7:30 - 12:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <h2>Gửi tin nhắn cho chúng tôi</h2>
+            <p>Quý phụ huynh, sinh viên và các đối tác có thể gửi câu hỏi, thắc mắc hoặc yêu cầu hỗ trợ thông qua form dưới đây. Chúng tôi sẽ phản hồi trong thời gian sớm nhất.</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="fullname">Họ và tên *</label>
+                    <input type="text" id="fullname" name="fullname" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="tel" id="phone" name="phone" class="form-control">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Chủ đề *</label>
+                    <select id="subject" name="subject" class="form-control" required>
+                        <option value="">-- Chọn chủ đề --</option>
+                        <option value="tuyensinh">Tư vấn tuyển sinh</option>
+                        <option value="daotao">Thông tin đào tạo</option>
+                        <option value="hocbong">Học bổng</option>
+                        <option value="doitac">Hợp tác đối tác</option>
+                        <option value="khac">Khác</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Nội dung *</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Gửi tin nhắn</button>
+            </form>
+        </div>
+
+        <div class="content-section">
+            <h2>Bản đồ</h2>
+            <div class="map-container">
+
+                <div style="background-color: #eee; height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
+                    <p>Bản đồ sẽ được hiển thị tại đây</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Khoa CNTT - Đại học Đại Nam</h3>
+                <p>Địa chỉ: 1 P. Xốm, Phú Lâm, Hà Đông, Hà Nội</p>
+                <p>Điện thoại: 024 3555 9999</p>
+                <p>Email: khoacntt@dainam.edu.vn</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liên kết nhanh</h3>
+                <a href="trangchu.html">Trang chủ</a>
+                <a href="gioi-thieu.html">Giới thiệu</a>
+                <a href="tin-tuc.html">Tin tức</a>
+                <a href="lien-he.html">Liên hệ</a>
+            </div>
+            <div class="footer-section">
+                <h3>Kết nối với chúng tôi</h3>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">YT</a>
+                    <a href="#">IG</a>
+                    <a href="#">LI</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Khoa Công Nghệ Thông Tin - Đại học Đại Nam. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
